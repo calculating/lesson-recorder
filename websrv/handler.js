@@ -7,8 +7,8 @@ const request = require('request');
 
 
 const server = https.createServer({
-    cert: fs.readFileSync('/etc/letsencrypt/live/ignui.com/fullchain.pem'),
-    key: fs.readFileSync('/etc/letsencrypt/live/ignui.com/privkey.pem')
+    cert: fs.readFileSync('/etc/letsencrypt/live/domain.com/fullchain.pem'),
+    key: fs.readFileSync('/etc/letsencrypt/live/domain.com/privkey.pem')
 });
 
 
